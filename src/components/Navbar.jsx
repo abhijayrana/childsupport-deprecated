@@ -39,7 +39,20 @@ export default function Navigation() {
           >
             Login
           </Button>
-
+          <Button
+            variant="h6"
+            style={{ color: "black", fontSize: "18px" }}
+            href="/files"
+          >
+            Files
+          </Button>
+          <Button
+            variant="h6"
+            style={{ color: "black", fontSize: "18px" }}
+            href="/uploader"
+          >
+            Upload Files
+          </Button>
         </Toolbar>
       </AppBar>
     </Box>

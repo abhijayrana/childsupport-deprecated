@@ -10,6 +10,7 @@ import Catalog from "./components/Catalog";
 import Navigation from "./components/Navbar";
 import ReadFile from "./components/Files";
 import FileDirectory from "./components/FileDirectory";
+import Uploader from "./components/Uploader";
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
             <Route index={true} element={<FileDirectory />} />
             <Route path="/files/:fileid" element={<ReadFile />} />
           </Route>
+          <Route path="/uploader" element={<Uploader />} />
           <Route path="/login" element={<Login />} />
         </Routes>
       </Box>
